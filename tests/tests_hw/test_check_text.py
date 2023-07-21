@@ -12,8 +12,6 @@ def footer_text(browser):
     footer.visit()
     footer.btn_element.click()
 
-
-
     assert footer.footer_text.get_text == '© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'
     assert field.text_element.get_text == 'Please select an item from left to start practice.'
 

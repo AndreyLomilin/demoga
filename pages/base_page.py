@@ -8,13 +8,21 @@ class BasePage:
     def visit(self):
         return self.driver.get(self.base_url)
 
-# Метод принимает аргумент locator и возвращает поиск элемента
-#     def find_element(self,locator):
-#         time.sleep(3)
-#         return self.driver.find_element(By.CSS_SELECTOR, locator)
+    def back(self):
+        self.driver.back()
+
+    def forward(self):
+        self.driver.forward()
+
+    def refresh(self):
+        self.driver.refresh()
+
 
     def get_url(self):
         return self.driver.current_url
+
+    def get_title(self):
+        return self.driver.get_title()
 
 
     def equal_url(self):
