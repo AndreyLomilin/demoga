@@ -13,9 +13,6 @@ def test_visible_accordion(browser):
 def test_visible_accordion_default(browser):
     element_page = Accordion(browser)
     element_page.visit()
-    assert element_page.elem1.visible()
     assert not element_page.elem1.visible()
-    assert element_page.elem2.visible()
     assert not element_page.elem2.visible()
-    assert element_page.elem3.visible()
     assert not element_page.elem3.visible()

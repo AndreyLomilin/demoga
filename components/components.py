@@ -7,7 +7,7 @@ class WebElement:
         self.locator = locator
 
     def visible(self):
-        return self.driver.find_element().isDisplayed()
+        return self.find_element().isDisplayed()
 
 
     def click(self):
