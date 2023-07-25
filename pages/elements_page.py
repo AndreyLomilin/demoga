@@ -18,6 +18,8 @@ class ElementsPage(BasePage):
 
         self.btns_first_menu = WebElement(driver, 'div:nth-child(1) > div > ul > li')
 
+        self.nav_bar = WebElement(driver, 'div > nav')
+
 
 
 

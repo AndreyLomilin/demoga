@@ -7,5 +7,6 @@ class ModalDialogs(BasePage):
         super().__init__(driver, self.base_url)
 
         self.modal = WebElement(driver, '#item-2')
+        self.icon = WebElement(driver, '#app > header > a > img')
 
 

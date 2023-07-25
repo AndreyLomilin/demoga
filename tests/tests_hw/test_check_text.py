@@ -3,7 +3,7 @@ import pytest
 from pages.demoqa import DemoQa
 from pages.elements_page import ElementsPage
 
-from conftest import @pytest.fixture()
+# from conftest import @pytest.fixture()
 
 
 def footer_text(browser):
