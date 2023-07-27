@@ -26,3 +26,5 @@ class FormPage(BasePage):
         self.select_state = WebElement(driver, '#react-select-3-input')
         self.select_city = WebElement(driver, '#react-select-4-input')
 
+        self.form = WebElement(driver, '#userForm')
+

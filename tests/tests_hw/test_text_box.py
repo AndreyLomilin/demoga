@@ -12,3 +12,5 @@ def test_text_box(browser):
 
 
     assert textbox_page.str_elem.check_count_elements(count=2)
+
+
